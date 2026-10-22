@@ -1,0 +1,21 @@
+# JPA Lab 2
+
+This project is a simple Student Management System using Java, JPA, Hibernate, and MySQL.
+
+## Features
+- Add a student
+- Find a student by ID
+- Display all students
+- Update student information
+- Delete a student
+
+## Database
+The project uses a MySQL database named `jpadb1`.
+
+## How to Run
+1. Create the database in MySQL.
+2. Configure the database username and password in `persistence.xml`.
+3. Run `App.java`.
+
+## Author
+Bisrat Amare
