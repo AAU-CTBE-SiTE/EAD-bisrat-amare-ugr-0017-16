@@ -1,1 +1,9 @@
 /target/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Keep the Maven project configuration
+!pom.xml
