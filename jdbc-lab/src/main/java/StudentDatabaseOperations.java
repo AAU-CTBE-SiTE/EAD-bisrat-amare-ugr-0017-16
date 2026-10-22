@@ -9,7 +9,8 @@ public class StudentDatabaseOperations {
             "jdbc:mysql://localhost:3306/StudentsDB";
 
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "databsee"
+    private static final String PASSWORD = "databsee1
+    "
 ";
 
     public static void main(String[] args) {
