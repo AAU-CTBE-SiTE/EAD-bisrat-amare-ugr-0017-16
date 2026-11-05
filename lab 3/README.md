@@ -48,5 +48,49 @@ mvn exec:java -Dexec.mainClass=com.craft.SetterObjectDemo
 6. Constructor-based injection uses `<constructor-arg .../>`, including `ref` for the Address bean.
 7. The `new` keyword is not used in `App` to create the Student or Address; Spring creates and wires them from the XML.
 
+## Annotation-Based Dependency Injection
+
+This section demonstrates Spring Dependency Injection using annotations
+and Java-based configuration instead of XML configuration.
+
+### Technologies and Annotations
+
+- `@Configuration` - Defines the Spring configuration class.
+- `@ComponentScan` - Scans the package for Spring components.
+- `@Component` - Registers Student and Address as Spring-managed beans.
+- `@Bean` - Creates and registers Subject beans.
+- `@Autowired` - Automatically injects dependencies.
+
+### 1. Object Injection
+
+The `AnnotationStudent` class uses `@Autowired` to inject an
+`AnnotationAddress` object.
+
+### 2. List of Beans Injection
+
+The `AnnotationStudent` class also injects a
+`List<AnnotationSubject>`.
+
+Three subject beans are defined in `AnnotationConfig`:
+- Java Programming
+- Database Systems
+- Mathematics
+
+Spring automatically injects all three matching beans into the list.
+
+### Running the Application
+
+Run `AnnotationApp.java` from VS Code.
+
+Main class:
+
+`com.craft.annotation.AnnotationApp`
+
+### Expected Result
+
+The application displays the student's ID and name, the injected
+address object, and all three injected subjects.
+
+
 ## Author
 Bisrat Amare
