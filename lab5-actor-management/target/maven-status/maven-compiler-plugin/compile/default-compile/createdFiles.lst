@@ -1,0 +1,3 @@
+com\craft\actormanagement\ActorManagementApplication.class
+com\craft\actormanagement\model\Actor.class
+com\craft\actormanagement\controller\ActorController.class
