@@ -1,0 +1,4 @@
+com\craft\lab6\Lab6Application.class
+com\craft\lab6\controller\StudentController.class
+com\craft\lab6\service\StudentService.class
+com\craft\lab6\aspect\LoggingAspect.class
